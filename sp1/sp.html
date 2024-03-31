@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sp</title>
+    <link rel="stylesheet" href="sp.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">MQHHD</div>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Sản phẩm </a></li>
+                <li><a href="#">Hỗ trợ</a></li>
+            </ul>
+        </nav>
+    <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img src="anh1.webp">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="anh1.webp" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="Picture1.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="Picture2.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="Picture3.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="Picture4.jpg" onclick="showImg(this.src)">
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="url">Giày Vans Vault OG Old Skool Black/White</div>
+            <div class="price">429.000đ <small><del>550.000đ</del></small></div>
+            <div class="chatlg">
+                <ul>
+                    <li><a href="#">Hàng oder</a></li>
+                    <li><a href="#">Chất lượng tốt nhất</a></li>
+                    <li><a href="#">Loại siêu cấp</a></li>
+                </ul>
+               </div>
+            <div class="size">
+              <p> Size:</p>
+              <div class="sizes">37</div>
+              <div class="sizes">38</div>
+              <div class="sizes">39</div>
+              <div class="sizes">40</div>
+              <div class="sizes">41</div>
+              <div class="sizes">42</div>
+              <div class="sizes">43</div>
+            </div>
+            <div class="quantity">
+                <p>Số lượng:</p>
+                <input type="number" min="1" max="5" value="1" >
+            </div>
+            <div class="add-buy">
+                <button class="them">Thêm vào giỏ</button>
+                <button class="mua">Mua ngay</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        let bigImg = document.querySelector('.big-img img');
+        function showImg(pic){
+            bigImg.src = pic;
+        }
+    </script>
+   <div class="mota">
+   <div class="motasp">MÔ TẢ SẢN PHẨM<hr></div>
+   <div class="nd">
+    <div class="nd1">
+            <p> Giày Vans Vault OG Old Skool Black/White với thiết kế đẹp, tinh tế & màu sắc vô cùng dễ phối đồ. Vậy nên đôi giày này 
+                trở nên phổ biến, mang tính biểu tượng và được rất nhiều giới trẻ yêu thích.<br>
+                Và nếu bạn nào một người đam mê dòng sneaker dễ mang, dễ phối đồ thì không nên bỏ qua mẫu giày siêu phẩm này đâu nhé! Dưới đây
+                là một số hình ảnh của đôi giày Giày Vans Vault OG Old Skool Black/White tại ĐQHHD Sneaker.
+            </p>
+   </div>
+   <div class="nd2">
+     <p><strong>1. Hoàn cảnh ra đời của giày Vans Vault OG Old Skool Black/White</strong>
+        Vans Vault OG Old Skool Black/White có thể là một sáng tạo của đội ngũ thiết kế Vans Vault để mang đến một phiên bản mang tính biểu tượng và độc đáo hơn cho mẫu giày Old Skool gốc.
+        </p>
+        <div class="img">
+            <img src="anh1.webp" style="width: 500px; height:500px;" >
+        </div>
+        <p><strong>2.Thiết kế của Vans Vault OG Old Skool Black/White<br>
+            <i>Phần trên (Upper):</i> </strong>phần trên được làm từ chất liệu da cao cấp, mang lại vẻ ngoài bền bỉ và sang trọng. Màu sắc chủ đạo là màu đen.
+         </p>
+         <div class="img">
+            <img src="Picture1.jpg" >
+        </div>
+        <p>
+            <strong><i>Logo và chi tiết:</i></strong> Vans Vault OG Old Skool Black/White thường có logo Vans là chữ “Off The Wall” dọc theo phần gót, thể hiện tinh thần tự do và sáng tạo của thương hiệu.
+        </p>
+        <div class="img">
+            <img src="Picture2.jpg" >
+        </div>
+        <p>
+            <strong><i>Dải sọc (Side Stripe):</i></strong> Dải sọc này thường có màu trắng (white) và chạy dọc theo phần bên của giày, tạo nên điểm nhấn và tăng tính thẩm mỹ.
+        </p>
+        <div class="img">
+            <img src="Picture3.jpg" >
+        </div>
+        <p>
+            <strong><i>3. Kết luận về Giày Vans Vault OG Old Skool Black/White </i></strong> Nếu bạn đang tìm kiếm một đôi giày độc đáo với sự kết hợp tuyệt vời giữa thời trang và nghệ thuật, thì Giày Vans Vault OG Old Skool Black/White là lựa chọn hoàn hảo.
+        </p>
+        <div class="img">
+            <img src="Picture4.jpg" >
+        </div>
+        <br>
+        <div class="img">
+            <img src="Picture5.jpg" >
+        </div>
+   </div>
+</div>
+</body>
+</html>

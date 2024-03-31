@@ -1,0 +1,178 @@
+*{
+   margin:0; 
+   padding:0;
+   box-sizing: border-box;
+}
+nav{
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   padding:10px 8% ;
+}
+nav .logo{
+   font-size: 32px;
+   font-weight:600;
+   cursor:pointer;
+}
+nav ul li{
+   list-style: none;
+   display:inline-block;
+}
+nav ul li a{
+   display:block;
+   margin:0 ;
+   color:#000;
+   font-weight: 500;
+   text-decoration: none;
+   font-size:17px;
+   position:relative;
+}
+nav ul li a::before{
+   content:'';
+   position: absolute;
+   bottom: 0;
+   top: 0;
+   background-color: #000;
+   width:0;
+   height:1px;
+   transition:all 0.3s ease;
+}
+nav ul li a:hover::before{
+   width:100%;
+}
+.flex-box{
+   display: flex;
+   width: 1000px;
+   margin:20px auto;
+}
+.left{
+   width:500px;
+}
+.big-img{
+   width:500px;
+}
+.big-img img{
+   width:inherit;
+}
+.images{
+   display:flex;
+   justify-content: space-between;
+   width:100%;
+   margin-top:15px;
+  
+}
+.small-img{
+   width:100px;
+   height:110px;
+   overflow: hidden;
+   border: 1px solid black;
+   margin:7px;
+}
+.small-img img{
+   width: inherit;
+   cursor: pointer;   
+   transition: all 0.3s ease;
+}
+.small-img:hover img{
+   transform: scale(1.2);
+}
+.right{
+   margin-left:100px;
+}
+.url{
+   font-size:27px; 
+   font-weight:600;
+   margin-top:50px;
+}
+.price{
+   font-weight:500;
+   font-size:20px;
+   margin: 20px 0;
+}
+.chatlg ul li{
+   margin-left:20px;
+
+}
+.chatlg ul li a{
+   text-decoration: none;
+   color:#000;
+   font-size:18px;
+}
+.size{
+   display:flex;
+   box-align:center;
+   margin:20px 0;
+}
+.size p{
+   font-size: 18px;
+   font-weight: 600;
+}
+.sizes{
+   width:40px;
+   height:30px;
+   border: 1px solid #e77614;
+   color: black;
+   text-align: center;
+   margin: 0 10px;
+  padding-top:5px;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       m
+.quantity{
+   display:flex;
+}
+.quantity p{
+  font-size: 18px;
+  font-weight: 600;
+}
+.quantity input{
+   width: 40px;
+   font-size:17px;
+   font-weight:500;
+   text-align:center;
+   margin-left:15px;
+}
+.add-buy{
+   display: flex;
+   margin:20px 0;
+}
+.add-buy button{
+   font-size:18px;
+   padding: 8px 25px;
+   border:none;
+   border-radius:6px;
+   cursor:pointer;
+   color:white;
+}
+.them{
+   background-color:rgb(241, 127, 70);
+   margin-right:30px;
+}
+.mua{
+   background-color:rgb(84, 178, 236);
+}
+.them:hover{
+   background-color:rgb(235, 86, 11);
+}
+.mua:hover{
+   background-color:rgb(6, 103, 206);
+}
+.mota{
+   margin:50px;
+   padding-left:135px;
+   padding-right:550px;
+}
+.motasp{
+   font-weight:600;
+   padding-bottom:20px;
+}
+.nd1 p{
+   font-size:17px;
+}
+.img img{
+   width:600px; 
+   height:780px;
+}
+.nd2 p{
+   padding:15px 0;
+   font-size:17px;
+}
+   
